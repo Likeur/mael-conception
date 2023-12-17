@@ -1,0 +1,24 @@
+<main class="h-[100vh]">
+    <div class="flex flex-col items-center mt-8">
+        <h2 class="text-3xl font-semibold">Ce que les Clients disent sur nous</h2>
+        <p class="text-gray-500">Si vous ne voulez pas nous croire, croyez en ce que nos clients disent sur nous !</p>
+    </div>
+    <section class="mt-10 flex justify-center">
+        <div class="grid gap-4 lg:grid-cols-3">
+            @for (item of testimonials ; track $index) {
+               <div class="w-80 p-4 h-min border border-black/5 rounded-xl bg-gray-50/50">
+                    <p class="text-sm text-gray-500"> {{item.description}} </p>
+                    <div class="flex items-center mt-5">
+                        <div class="h-9 w-9 ring-2 ring-green-600 bg-red-600 rounded-full overflow-hidden object-cover">
+                            <img src="{{item.linkprofile}}" width="40" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h3 class="text-sm lowercase"> {{item.name}} </h3>
+                            <p class="text-sm text-gray-400"> {{item.profil}} </p>
+                        </div>
+                    </div>
+               </div>
+            }
+        </div>
+    </section>
+</main>
