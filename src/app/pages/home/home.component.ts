@@ -5,11 +5,12 @@ import { ServiceSecComponent } from '../../components/service-sec/service-sec.co
 import { ClientSecComponent } from '../../components/client-sec/client-sec.component';
 import { PortfolioSecComponent } from '../../components/portfolio-sec/portfolio-sec.component';
 import { FooterSecComponent } from '../../components/footer-sec/footer-sec.component';
+import { ValeurSecComponent } from '../../components/valeur-sec/valeur-sec.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, HeroSecComponent, ServiceSecComponent,PortfolioSecComponent, ClientSecComponent, FooterSecComponent],
+  imports: [NavbarComponent, HeroSecComponent, ServiceSecComponent,PortfolioSecComponent,ValeurSecComponent, ClientSecComponent, FooterSecComponent],
   templateUrl: './home.component.html',
 
 })

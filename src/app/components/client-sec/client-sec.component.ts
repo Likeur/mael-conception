@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
 @Component({
   selector: 'app-client-sec',
   standalone: true,
@@ -27,4 +28,32 @@ export class ClientSecComponent {
       linkprofile: "https://mael-conception.com/images/testimony/henoc.png"
     }
   ]
+
+  ngOnInit(){
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from('.client-text',{
+      scrollTrigger : {
+        trigger : '.client-text',
+        start: 'top 70%',
+        end:'top center',
+        scrub: true
+      },
+      scale:0,
+      duration:1
+    })
+
+    gsap.from('.client-box',{
+      scrollTrigger : {
+        trigger : '.client-box',
+        start: 'top 70%',
+        end:'top center',
+        scrub: true
+      },
+      x:50,
+      opacity:0,
+      duration:1
+    })
+    
+  }
 }
