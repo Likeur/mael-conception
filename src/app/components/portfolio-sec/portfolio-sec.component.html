@@ -1,0 +1,22 @@
+<main class="mb-10">
+    <div class="flex flex-col items-center mt-8 lg:mt-12">
+        <h2 class="text-3xl font-semibold">Nos Récent travaux</h2>
+        <p class="text-gray-500">Ce que nous savons faire</p>
+    </div>
+    <section class="flex mt-10 justify-center">
+        <div class="grid gap-4 lg:grid-cols-3">
+            @for (item of Project ; track $index) {
+                <div class="bg-gray-300 group p-4 flex relative justify-center cursor-pointer overflow-hidden items-center rounded-xl w-64 h-56">
+                    <img src="{{item.photo}}" class="rounded-lg group-hover:scale-110 duration-300" alt="">
+                    <div class="bg-gray-500/50 absolute flex justify-center items-center -top-[20rem] rounded-xl group-hover:top-0 duration-300 p-4 h-full w-full backdrop-blur-sm">
+                        <h3 class="text-white font-semibold text-xl"> {{item.name}} </h3>
+                    </div>
+                </div>
+             }
+             <div class="p-4 flex flex-col relative justify-center overflow-hidden rounded-xl w-64 h-56">
+                <h2 class="text-xl font-normal">Alors, Vous etes convaincu par notre travail ?</h2>
+                <a href="" class="p-2 block rounded-md bg-green-600 text-white hover:bg-green-700 duration-300 w-max mt-3">Demander un devis</a>
+            </div>
+        </div>
+    </section>
+</main>
