@@ -37,7 +37,6 @@ export class ClientSecComponent {
         trigger : '.client-text',
         start: 'top 70%',
         end:'top center',
-        scrub: true
       },
       scale:0,
       duration:1
@@ -48,7 +47,6 @@ export class ClientSecComponent {
         trigger : '.client-box',
         start: 'top 70%',
         end:'top center',
-        scrub: true
       },
       x:50,
       opacity:0,

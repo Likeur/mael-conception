@@ -18,7 +18,7 @@ export class ValeurSecComponent {
         trigger : '.val-img',
         start: 'top 70%',
         end:'top center',
-        scrub: true
+        
       },
       x:-80,
       opacity:0,
@@ -30,7 +30,7 @@ export class ValeurSecComponent {
         trigger : '.head-val',
         start: 'top 90%',
         end:'top 70%',
-        scrub: true
+       
       },
       x:50,
       opacity:0,
@@ -41,7 +41,7 @@ export class ValeurSecComponent {
         trigger : '.val-1',
         start: 'top 90%',
         end:'top 70%',
-        scrub: true
+        
       },
       x:50,
       opacity:0,
@@ -52,7 +52,7 @@ export class ValeurSecComponent {
         trigger : '.val-2',
         start: 'top 90%',
         end:'top 70%',
-        scrub: true
+      
       },
       x:50,
       opacity:0,
@@ -63,7 +63,7 @@ export class ValeurSecComponent {
         trigger : '.val-3',
         start: 'top 90%',
         end:'top 70%',
-        scrub: true
+        
       },
       x:50,
       opacity:0,
@@ -74,7 +74,7 @@ export class ValeurSecComponent {
         trigger : '.val-4',
         start: 'top 90%',
         end:'top 70%',
-        scrub: true
+      
       },
       x:50,
       opacity:0,

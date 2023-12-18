@@ -39,7 +39,6 @@ export class PortfolioSecComponent {
         trigger : '.work-text',
         start: 'top 70%',
         end:'top center',
-        scrub: true
       },
       scale:0,
       duration:1
@@ -50,7 +49,6 @@ export class PortfolioSecComponent {
         trigger : '.portolio-box',
         start: 'top 70%',
         end:'top center',
-        scrub: true
       },
       scale:0,
       duration:1
@@ -60,7 +58,7 @@ export class PortfolioSecComponent {
         trigger : '.cta-card',
         start: 'top 70%',
         end:'top center',
-        scrub: true
+
       },
       x:50,
       opacity:0,

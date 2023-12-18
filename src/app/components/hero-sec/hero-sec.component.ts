@@ -35,7 +35,6 @@ export class HeroSecComponent {
         trigger : '.trusted-company',
         start: 'top 80%',
         end:'top center',
-        scrub: true
       },
       scale:0,
       duration:1

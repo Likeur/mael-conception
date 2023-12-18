@@ -19,7 +19,7 @@ export class ServiceSecComponent {
         trigger : '.head-text',
         start: 'top 70%',
         end:'top center',
-        scrub: true
+        
       },
       scale:0,
       duration:1
@@ -29,7 +29,7 @@ export class ServiceSecComponent {
         trigger : '.middle-line',
         start: 'top 70%',
         end:'top -50%',
-        scrub: true
+        
       },
       height:'0px'
     })
@@ -38,7 +38,7 @@ export class ServiceSecComponent {
         trigger : '.number-1',
         start: 'top 90%',
         end:'top 70%',
-        scrub: true
+        
       },
       scale:0,
       x:50,
@@ -50,7 +50,7 @@ export class ServiceSecComponent {
         trigger : '.number-2',
         start: 'top 90%',
         end:'top 70%',
-        scrub: true
+        
       },
       scale:0,
       x:50,
@@ -62,7 +62,7 @@ export class ServiceSecComponent {
         trigger : '.number-3',
         start: 'top 95%',
         end:'top 70%',
-        scrub: true
+       
       },
       scale:0,
       x:50,
@@ -74,7 +74,7 @@ export class ServiceSecComponent {
         trigger : '.number-4',
         start: 'top 95%',
         end:'top 70%',
-        scrub: true
+        
       },
       scale:0,
       x:50,
