@@ -6,7 +6,6 @@ import { ScrollTrigger } from 'gsap/all';
   standalone: true,
   imports: [],
   templateUrl: './valeur-sec.component.html',
-  styles: ``
 })
 export class ValeurSecComponent {
 

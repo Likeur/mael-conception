@@ -7,7 +7,6 @@ import { ScrollTrigger } from 'gsap/all';
   standalone: true,
   imports: [],
   templateUrl: './service-sec.component.html',
-  styles: ``
 })
 export class ServiceSecComponent {
 
@@ -29,7 +28,7 @@ export class ServiceSecComponent {
         trigger : '.middle-line',
         start: 'top 70%',
         end:'top -50%',
-        
+        scrub: true
       },
       height:'0px'
     })
