@@ -22,7 +22,7 @@ export class ServiceSecComponent {
         
       },
       scale:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.middle-line',{
       scrollTrigger : {
@@ -43,7 +43,7 @@ export class ServiceSecComponent {
       scale:0,
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.number-2',{
       scrollTrigger : {
@@ -55,7 +55,7 @@ export class ServiceSecComponent {
       scale:0,
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.number-3',{
       scrollTrigger : {
@@ -67,7 +67,7 @@ export class ServiceSecComponent {
       scale:0,
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.number-4',{
       scrollTrigger : {
@@ -79,7 +79,7 @@ export class ServiceSecComponent {
       scale:0,
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
   }
 }

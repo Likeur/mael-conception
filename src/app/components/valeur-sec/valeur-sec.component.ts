@@ -22,7 +22,7 @@ export class ValeurSecComponent {
       },
       x:-80,
       opacity:0,
-      duration:1
+      duration:0.5
     })
   
     gsap.from('.head-val',{
@@ -34,7 +34,7 @@ export class ValeurSecComponent {
       },
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.val-1',{
       scrollTrigger : {
@@ -45,7 +45,7 @@ export class ValeurSecComponent {
       },
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.val-2',{
       scrollTrigger : {
@@ -56,7 +56,7 @@ export class ValeurSecComponent {
       },
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.val-3',{
       scrollTrigger : {
@@ -67,7 +67,7 @@ export class ValeurSecComponent {
       },
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.val-4',{
       scrollTrigger : {
@@ -78,7 +78,7 @@ export class ValeurSecComponent {
       },
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     
   }

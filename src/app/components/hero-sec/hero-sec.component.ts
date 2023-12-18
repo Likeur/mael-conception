@@ -18,17 +18,17 @@ export class HeroSecComponent {
     tl.from('.first-div',{
       scale:1.4,
       opacity:0,
-      duration:1
+      duration:0.5
     }).from('.second-div',{
       scale:1.4,
       opacity:0,
-      duration:1
+      duration:0.5
     })
 
     gsap.from('.text-div',{
       scale:1.4,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.trusted-company',{
       scrollTrigger : {
@@ -37,7 +37,7 @@ export class HeroSecComponent {
         end:'top center',
       },
       scale:0,
-      duration:1
+      duration:0.5
     })
 
   }

@@ -39,7 +39,7 @@ export class ClientSecComponent {
         end:'top center',
       },
       scale:0,
-      duration:1
+      duration:0.5
     })
 
     gsap.from('.client-box',{
@@ -50,7 +50,7 @@ export class ClientSecComponent {
       },
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     
   }

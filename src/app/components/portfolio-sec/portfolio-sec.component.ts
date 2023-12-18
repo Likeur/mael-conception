@@ -41,7 +41,7 @@ export class PortfolioSecComponent {
         end:'top center',
       },
       scale:0,
-      duration:1
+      duration:0.5
     })
 
     gsap.from('.portolio-box',{
@@ -51,7 +51,7 @@ export class PortfolioSecComponent {
         end:'top center',
       },
       scale:0,
-      duration:1
+      duration:0.5
     })
     gsap.from('.cta-card',{
       scrollTrigger : {
@@ -62,7 +62,7 @@ export class PortfolioSecComponent {
       },
       x:50,
       opacity:0,
-      duration:1
+      duration:0.5
     })
     
   }
