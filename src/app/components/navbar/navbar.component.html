@@ -1,4 +1,4 @@
-<section class="border-b w-screen lg:border-none p-4 lg:p-6 ">
+<section class="border-b overflow-x-hidden w-screen lg:border-none p-4 lg:p-6 ">
     <div class="container mx-auto flex items-center justify-between">
         <div class="ml-5 ">
             <a href="">
@@ -8,7 +8,7 @@
         <nav>
             <ul id="navigation" class="flex flex-col h-screen lg:h-min duration-300 -translate-y-[70rem] lg:-translate-y-0 p-4 lg:p-0 bg-white left-0 top-16 lg:top-0 right-0 z-50 lg:bg-transparent absolute lg:relative lg:flex-row lg:items-center">
                 @for (item of navLinks ; track $index) {
-                    <li class="ml-8 lg:ml-3 mt-2 lg:mt-0 text-xl lg:text-lg"><a href="" class="hover:text-green-600 duration-300 block"> {{item.title}} </a></li>
+                    <li (click)="toggleNav()" class="ml-8 lg:ml-3 mt-2 lg:mt-0 text-xl lg:text-lg"><a href="" class="hover:text-green-600 duration-300 block"> {{item.title}} </a></li>
                 }
             </ul>
         </nav>
