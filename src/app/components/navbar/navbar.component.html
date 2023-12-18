@@ -1,19 +1,23 @@
-<section class="border-b lg:border-none p-4 lg:p-6 ">
+<section class="border-b w-screen lg:border-none p-4 lg:p-6 ">
     <div class="container mx-auto flex items-center justify-between">
-        <div>
+        <div class="ml-5 ">
             <a href="">
                 <img src="https://mael-conception.com/images/logo-vert.png" width="80" alt="">
             </a>
         </div>
         <nav>
-            <ul class="flex flex-col lg:flex-row items-center">
+            <ul class="flex flex-col -translate-y-[40rem] lg:-translate-y-0 p-4 lg:p-0 bg-white left-0 top-16 lg:top-0 right-0 z-50 lg:bg-transparent absolute lg:relative lg:flex-row lg:items-center">
                 @for (item of navLinks ; track $index) {
-                    <li class="ml-3"><a href="" class="hover:text-green-600 duration-300 block"> {{item.title}} </a></li>
+                    <li class="ml-8 lg:ml-3 mt-2 lg:mt-0 text-xl lg:text-lg"><a href="" class="hover:text-green-600 duration-300 block"> {{item.title}} </a></li>
                 }
             </ul>
         </nav>
-        <div>
-            <a href="#footersec" class="bg-green-600 text-white rounded-md p-2 hover:bg-green-700 duration-300">Contactes</a>
+        <div class="flex">
+            <a href="mailto:hello@butterfly.com" class="bg-green-600 text-white rounded-md p-2 hover:bg-green-700 duration-300">Contactes</a>
+            <button title="toggle menu button" class="ml-2 mr-4 lg:hidden">
+                <div class="w-7 h-0.5 bg-gray-700 rounded-full"></div>
+                <div class="w-7 h-0.5 bg-gray-700 rounded-full mt-2"></div>
+            </button>
         </div>
     </div>
 </section>

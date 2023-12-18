@@ -60,7 +60,19 @@ export class ServiceSecComponent {
     gsap.from('.number-3',{
       scrollTrigger : {
         trigger : '.number-3',
-        start: 'top 90%',
+        start: 'top 95%',
+        end:'top 70%',
+        scrub: true
+      },
+      scale:0,
+      x:50,
+      opacity:0,
+      duration:1
+    })
+    gsap.from('.number-4',{
+      scrollTrigger : {
+        trigger : '.number-4',
+        start: 'top 95%',
         end:'top 70%',
         scrub: true
       },
