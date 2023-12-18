@@ -33,4 +33,15 @@ export class NavbarComponent {
       path : "podcast"
     }
   ]
+
+  toggleNav(){
+    const navbar = document.querySelector('#navigation')!
+    const barUn = document.querySelector('#bar-1')!
+    const barDeux = document.querySelector('#bar-2')!
+
+    navbar.classList.toggle('-translate-y-[70rem]')
+    barUn.classList.toggle('rotate-45')
+    barDeux.classList.toggle('-rotate-45')
+    barDeux.classList.toggle('mt-2')
+  }
 }

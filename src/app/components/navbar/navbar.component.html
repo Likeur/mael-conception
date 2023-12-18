@@ -6,7 +6,7 @@
             </a>
         </div>
         <nav>
-            <ul class="flex flex-col -translate-y-[40rem] lg:-translate-y-0 p-4 lg:p-0 bg-white left-0 top-16 lg:top-0 right-0 z-50 lg:bg-transparent absolute lg:relative lg:flex-row lg:items-center">
+            <ul id="navigation" class="flex flex-col h-screen lg:h-min duration-300 -translate-y-[70rem] lg:-translate-y-0 p-4 lg:p-0 bg-white left-0 top-16 lg:top-0 right-0 z-50 lg:bg-transparent absolute lg:relative lg:flex-row lg:items-center">
                 @for (item of navLinks ; track $index) {
                     <li class="ml-8 lg:ml-3 mt-2 lg:mt-0 text-xl lg:text-lg"><a href="" class="hover:text-green-600 duration-300 block"> {{item.title}} </a></li>
                 }
@@ -14,9 +14,9 @@
         </nav>
         <div class="flex">
             <a href="mailto:hello@butterfly.com" class="bg-green-600 text-white rounded-md p-2 hover:bg-green-700 duration-300">Contactes</a>
-            <button title="toggle menu button" class="ml-2 mr-4 lg:hidden">
-                <div class="w-7 h-0.5 bg-gray-700 rounded-full"></div>
-                <div class="w-7 h-0.5 bg-gray-700 rounded-full mt-2"></div>
+            <button (click)="toggleNav()" title="toggle menu button" class="ml-2 mr-4 lg:hidden">
+                <div id="bar-1" class="w-7 duration-300 h-0.5 bg-gray-700 rounded-full"></div>
+                <div id="bar-2" class="w-7 duration-300 h-0.5 bg-gray-700 rounded-full mt-2"></div>
             </button>
         </div>
     </div>
